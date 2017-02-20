@@ -37,6 +37,15 @@ function update_status(json) {
   $("#analog4").html(s["analog"][4])
   $("#analog5").html(s["analog"][5])
 
+  $("#sensor0").html(s["sensor"][0])
+  $("#sensor1").html(s["sensor"][1])
+  $("#sensor2").html(s["sensor"][2])
+  $("#sensor3").html(s["sensor"][3])
+  $("#sensor4").html(s["sensor"][4])
+  $("#sensor5").html(s["sensor"][5])
+  $("#sensor6").html(s["sensor"][6])
+  $("#sensor7").html(s["sensor"][7])
+
   setTimeout(poll, 100)
 }
 
